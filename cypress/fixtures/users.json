@@ -1,0 +1,30 @@
+{
+    "login": {
+        "name": "Valdinicleide Soraya Edith",
+        "email": "valdinicleide@gmail.com",
+        "password": "pwd123"
+    },
+    "inv_pass": {
+        "email": "felipe@gmail.com",
+        "password": "123456"
+    },
+    "email_404": {
+        "email": "404e@gmail.com",
+        "password": "pwd123"
+    },
+    "create": {
+        "name": "Felipe Rodrigues",
+        "email": "felipe@gmail.com",
+        "password": "pwd123"
+    },
+    "dup_email": {
+        "name": "James Gunn",
+        "email": "james@hotmail.com",
+        "password": "pwd123"
+    },
+    "required": {
+        "name": "Margot Robbie",
+        "email": "margot@gmail.com",
+        "password": "pwd123"
+    }
+}
