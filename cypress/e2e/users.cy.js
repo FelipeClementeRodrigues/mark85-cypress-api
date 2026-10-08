@@ -7,7 +7,6 @@ describe('POST /users', () => {
         })
     })
 
-
   it('register a new user', function() {
 
    const user = this.users.create
@@ -38,7 +37,6 @@ describe('POST /users', () => {
   context('required fields', function() {
     let user;
    
-
     beforeEach(function() {
       user = this.users.required
     })
@@ -56,7 +54,6 @@ describe('POST /users', () => {
       })
     })  
 
-
     it('email is required', function() {
       delete user.email
 
@@ -70,7 +67,6 @@ describe('POST /users', () => {
       })
     })  
 
-
     it('password is required', function() {
       delete user.password
 
@@ -83,11 +79,6 @@ describe('POST /users', () => {
           expect(message).to.eq('ValidationError: \"password\" is required')
       })
     })  
-
-
-
-
-
   })
 })
 

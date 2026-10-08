@@ -6,7 +6,6 @@ describe('POST /sessions', () => {
         })
     })
 
-
     it('user session', function () {
 
         const userData = this.users.login
@@ -23,7 +22,6 @@ describe('POST /sessions', () => {
             })
     })
 
-
     it('Invalid password', function () {
         const user = this.users.inv_pass
 
@@ -33,8 +31,6 @@ describe('POST /sessions', () => {
             })
     })
 
-
-
     it('Email not found', function () {
         const user = this.users.email_404
 
@@ -43,9 +39,8 @@ describe('POST /sessions', () => {
                 expect(response.status).to.eq(401)
             })
     })
-
-
 })
+
 
 
 
